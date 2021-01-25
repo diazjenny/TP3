@@ -7,7 +7,7 @@ const buttonUpdate = document.getElementById('submitUpdate');
 const buttonDelete = document.getElementById('submitDelete');
 const buttonFilter = document.getElementById('filter');
 
-//4. Add user -----falta validaciones del formulario
+//4. Add user 
 const newUser = (e) => {
     e.preventDefault();
     spinner.classList.add('d-inline-block');
